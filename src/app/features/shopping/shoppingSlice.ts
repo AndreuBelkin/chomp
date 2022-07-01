@@ -1,10 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit'
+import { RootState } from '../../store'
 
-interface IShoppingBasket {
+interface IShoppingCart {
     countItems: number
 }
 
-const initState: IShoppingBasket = {
+const initState: IShoppingCart = {
     countItems: 0
 }
 
@@ -19,5 +20,5 @@ export const shoppingSlice = createSlice({
 })
 
 export const { addItem } = shoppingSlice.actions
-
+export const getCountShoppingItems = (state: RootState) => state.shopping.countItems
 export default shoppingSlice.reducer
