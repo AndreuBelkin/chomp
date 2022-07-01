@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  /* Colors */
+  --color-primary: #35b8be;
+  --color-dark-primary: #1b9097;
+  --color-paragraph: #546285;
+  --color-black: #08090a;
+  /* Indents */
+  --border-radius: .5rem;
+  --padding-x: 1rem;
+  --padding-y: .5rem;
+  --gap: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +24,52 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-paragraph);
+}
+
+.continer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Default Text Styles */
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--color-black);
+}
+
+h2 {
+  margin: 20px 0;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--color-primary);
+}
+
+h3 {
+  margin: 10px 0;
+  color: var(--color-black);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+p {
+  color: var(--color-paragraph);
+  line-height: 1.34;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
 }
