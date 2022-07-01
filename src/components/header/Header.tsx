@@ -1,12 +1,12 @@
 import React, { FC } from "react";
 import "./Header.css";
-import NavbarItem from "./NavbarItem";
+import Navbar from "./Navbar";
 
 const Header: FC = () => {
   return (
     <header className='header container'>
       <p>Logo</p>
-      <NavbarItem>Home</NavbarItem>
+      <Navbar />
     </header>
   );
 };
