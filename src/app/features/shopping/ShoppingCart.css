@@ -1,0 +1,23 @@
+.shopping-cart {
+    @apply flex items-center justify-center relative cursor-pointer;
+    width: 55px;
+    height: 55px;
+    border-radius: var(--border-radius);
+    background-color: var(--color-primary);
+    background-image: url('https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3345876b5c4_Button%20Wave.svg')
+}
+
+.shopping-cart__count {
+    @apply flex items-center justify-center;
+    @apply absolute -top-1.5 -right-1.5;
+    @apply select-none text-xs;
+    width: 25px;
+    height: 25px;   
+    color: var(--color-primary);
+    background-color: white;
+    border-radius: 999px;
+}
+
+.shopping-cart__item {
+    color: white;
+}
