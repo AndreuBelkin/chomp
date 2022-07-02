@@ -1,0 +1,13 @@
+.footer {
+    @apply py-24;
+    background-color: #f5fbfc;
+    background-image: url('https://assets.website-files.com/5e865e0…/5e865e0…_Pattern%20Footer.svg');
+}
+
+.footer .container {
+    @apply flex flex-col;
+}
+
+.footer-line {
+    @apply flex items-center justify-between;
+}
