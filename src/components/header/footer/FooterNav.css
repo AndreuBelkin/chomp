@@ -1,0 +1,18 @@
+.footer-navigation {
+    @apply grid grid-cols-3;
+}
+
+.navigation-column {
+    @apply flex flex-col gap-4;
+}
+
+.navigation-column h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.navigation-column a:hover {
+    color: #28224b;
+}

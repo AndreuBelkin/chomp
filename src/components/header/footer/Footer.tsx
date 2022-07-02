@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import Logo from "../Logo";
 import "./Footer.css";
+import FooterNav from "./FooterNav";
 import SocialMedia from "./SocialMedia";
 
 const Footer: FC = () => {
@@ -13,7 +14,7 @@ const Footer: FC = () => {
             <p>Takeaway & Delivery template for small - medium businesses.</p>
           </div>
           <div className='footer-box'>
-            <nav>Навигация</nav>
+            <FooterNav />
           </div>
         </div>
         <div className='footer-line'>
