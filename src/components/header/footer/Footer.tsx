@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import Logo from "../Logo";
 import "./Footer.css";
+import SocialMedia from "./SocialMedia";
 
 const Footer: FC = () => {
   return (
@@ -17,11 +18,7 @@ const Footer: FC = () => {
         </div>
         <div className='footer-line'>
           <p>Built by Flowbase · Powered by Webflow</p>
-          <div className='socual-media'>
-            <img src='' alt='Instagram' />
-            <img src='' alt='Twitter' />
-            <img src='' alt='YouTube' />
-          </div>
+          <SocialMedia />
         </div>
       </div>
     </footer>
