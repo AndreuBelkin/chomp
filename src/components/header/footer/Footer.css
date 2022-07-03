@@ -11,3 +11,14 @@
 .footer-line {
     @apply flex items-center justify-between;
 }
+
+.footer-line_bottom {
+    margin-top: 100px;
+    padding-top: 60px;
+    border-top: 1px solid rgba(126, 130, 143, 0.09);
+}
+
+.footer-line_bottom a {
+    color: var(--color-primary);
+    text-decoration: underline;
+}

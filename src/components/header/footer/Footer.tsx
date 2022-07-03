@@ -11,14 +11,25 @@ const Footer: FC = () => {
         <div className='footer-line'>
           <div className='footer-box'>
             <Logo />
-            <p>Takeaway & Delivery template for small - medium businesses.</p>
+            <p style={{ width: "265px", marginTop: "25px" }}>
+              Takeaway & Delivery template for small - medium businesses.
+            </p>
           </div>
           <div className='footer-box'>
             <FooterNav />
           </div>
         </div>
-        <div className='footer-line'>
-          <p>Built by Flowbase · Powered by Webflow</p>
+        <div className='footer-line footer-line_bottom'>
+          <p style={{ fontSize: "15px" }}>
+            Built by{" "}
+            <a href='http://www.flowbase.co/' target='_blank'>
+              Flowbase
+            </a>{" "}
+            · Powered by{" "}
+            <a href='https://webflow.com/' target='_blank'>
+              Webflow
+            </a>
+          </p>
           <SocialMedia />
         </div>
       </div>
