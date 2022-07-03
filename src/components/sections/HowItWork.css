@@ -1,0 +1,43 @@
+.how-it-work {
+    @apply flex flex-col gap-8;
+}
+
+.how-it-work__title {
+    text-align: center;
+}
+
+.how-it-work-content {
+    @apply grid grid-cols-3 relative;
+    column-gap: 100px;
+}
+
+.how-it-work-content::after {
+    position: absolute;
+    top: 32%;
+    left: 15%;
+    content: '';
+    width: 70%;
+    height: 1px;
+    border-style: dashed none none;
+    border-width: 1.3px;
+    border-color: #d1cdcd;
+    z-index: -1;
+}
+
+.content-card {
+    @apply flex flex-col items-center;
+}
+
+.content-card__img {
+    max-width: 333px;
+    margin-bottom: 40px;
+}
+
+.content-card__title {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.content-card__text {
+    text-align: center;
+}

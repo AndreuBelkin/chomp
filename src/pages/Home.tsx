@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import About from "../components/sections/About";
+import HowItWork from "../components/sections/HowItWork";
 import Intro from "../components/sections/Intro";
 import "./Home.css";
 
@@ -8,9 +9,7 @@ const Home: FC = () => {
     <main className='main'>
       <Intro />
       <About />
-      <section className='section'>
-        <div className='container'>How it work section</div>
-      </section>
+      <HowItWork />
       <section className='section'>
         <div className='container'>Menu section</div>
       </section>
