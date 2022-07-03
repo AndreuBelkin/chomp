@@ -1,8 +1,8 @@
 import React, { FC } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Button from "./components/common/Button";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
+import Home from "./pages/Home";
 
 const App: FC = () => {
   return (
@@ -10,9 +10,8 @@ const App: FC = () => {
       <div className='app'>
         <Header />
         <Routes>
-          <Route path='/' />
+          <Route path='/' element={<Home />} />
         </Routes>
-        <Button>Button</Button>
         <Footer />
       </div>
     </BrowserRouter>
