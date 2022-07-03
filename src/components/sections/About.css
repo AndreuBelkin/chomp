@@ -1,0 +1,18 @@
+.about {
+    @apply grid grid-cols-2 items-center;
+}
+
+.about-content {
+    @apply flex flex-col gap-4;
+}
+
+.about-content_bg {
+    background-image: url("https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa308a576b613_YumYum.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.content__img {
+    width: 523px;
+}
