@@ -1,12 +1,11 @@
 import React, { FC } from "react";
+import Intro from "../components/sections/Intro";
 import "./Home.css";
 
 const Home: FC = () => {
   return (
     <main className='main'>
-      <section className='section'>
-        <div className='container'>First section</div>
-      </section>
+      <Intro />
       <section className='section section_grey'>
         <div className='container'>About section</div>
       </section>
