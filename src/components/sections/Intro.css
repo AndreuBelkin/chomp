@@ -1,0 +1,30 @@
+.header-section {
+    background-image: url("https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3306c76b60a_BG%20Shape.svg");
+    background-position: 100% 0%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.intro {
+    @apply grid grid-cols-2;
+}
+
+.intro-content {
+    @apply flex flex-col gap-4;
+}
+
+.content__text {
+    margin-bottom: 2rem;
+}
+
+.text_primary {
+    color: var(--color-primary);
+}
+
+.review {
+    @apply flex flex-col gap-2 mt-4;
+}
+
+.review__logo {
+    max-width: 110px;
+}
