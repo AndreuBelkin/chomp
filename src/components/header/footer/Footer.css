@@ -1,7 +1,10 @@
 .footer {
-    @apply py-24;
-    background-color: #f5fbfc;
-    background-image: url('https://assets.website-files.com/5e865e0…/5e865e0…_Pattern%20Footer.svg');
+    padding: 100px 0;
+    background-color: #f5fbfc; 
+    background-image: url("https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa326ac76b5fe_Pattern%20Footer.svg");
+    background-position: 0% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .footer .container {

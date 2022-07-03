@@ -22,11 +22,11 @@ const Footer: FC = () => {
         <div className='footer-line footer-line_bottom'>
           <p style={{ fontSize: "15px" }}>
             Built by{" "}
-            <a href='http://www.flowbase.co/' target='_blank'>
+            <a href='http://www.flowbase.co/' target='_blank' rel='noreferrer'>
               Flowbase
             </a>{" "}
             · Powered by{" "}
-            <a href='https://webflow.com/' target='_blank'>
+            <a href='https://webflow.com/' target='_blank' rel='noreferrer'>
               Webflow
             </a>
           </p>
