@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import shoppingSlice from './features/shopping/shoppingSlice'
+import shoppingSlice from './slices/shopping/shoppingSlice'
 // ...
 
 const store = configureStore({

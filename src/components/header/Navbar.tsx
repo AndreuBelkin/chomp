@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import NavbarItem from "./NavbarItem";
 import "./Navbar.css";
-import ShoppingCart from "../../app/features/shopping/ShoppingCart";
+import ShoppingCart from "../../store/slices/shopping/ShoppingCart";
 
 const Navbar: FC = () => {
   const navbarItems = ["Home", "Order", "Company", "FAQ", "Contact"];

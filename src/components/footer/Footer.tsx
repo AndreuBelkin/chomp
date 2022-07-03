@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import Logo from "../Logo";
+import Logo from "../header/Logo";
 import "./Footer.css";
 import FooterNav from "./FooterNav";
 import SocialMedia from "./SocialMedia";
