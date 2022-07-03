@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import About from "../components/sections/About";
 import Intro from "../components/sections/Intro";
 import "./Home.css";
 
@@ -6,9 +7,7 @@ const Home: FC = () => {
   return (
     <main className='main'>
       <Intro />
-      <section className='section section_grey'>
-        <div className='container'>About section</div>
-      </section>
+      <About />
       <section className='section'>
         <div className='container'>How it work section</div>
       </section>
