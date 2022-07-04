@@ -1,6 +1,6 @@
 type TCategoryMenu = 'burgers' | 'sides' | 'drinks'
 
-interface IMenu {
+export interface IMenu {
     id: number
     category: TCategoryMenu
     name: string
