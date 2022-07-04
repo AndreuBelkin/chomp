@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import About from "../components/sections/About";
 import HowItWork from "../components/sections/HowItWork";
 import Intro from "../components/sections/Intro";
+import MenuCard from "../store/slices/menu/MenuCard";
 import "./Home.css";
 
 const Home: FC = () => {
@@ -12,6 +13,7 @@ const Home: FC = () => {
       <HowItWork />
       <section className='section'>
         <div className='container'>Menu section</div>
+        <MenuCard />
       </section>
       <section className='section'>
         <div className='container'>Order section</div>

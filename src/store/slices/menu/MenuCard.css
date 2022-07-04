@@ -1,0 +1,56 @@
+.menu-card {
+    @apply flex items-center;
+    max-width: 50%;
+    cursor: pointer;
+    gap: 25px;
+    padding: 25px;
+    min-height: 200px;
+    border: 1px solid rgba(53, 184, 190, 0.15);
+    border-radius: 6px;
+    background-color: #fff;
+    transition: border-color .15s;
+}
+
+.menu-card:hover {
+    border-color: rgba(53, 184, 190, 0.5);
+}
+
+.menu-card__img {
+    width: 120px;
+    height: 120px;
+    border-radius: 6px;
+}
+
+.menu-card-content {
+    @apply flex flex-col gap-2;
+}
+
+.menu-content-title {
+    @apply flex items-center justify-between;
+}
+
+.menu-content-title__name {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.menu-content-form {
+    @apply flex items-center justify-start gap-2;
+}
+
+.menu-content-form input {
+    border: 1px solid #ddd;
+    padding: 8px 6px 8px 12px;
+    border-radius: 6px;
+    width: 80px;
+    height: 48px;
+}
+
+.button_order {
+    min-height: 45px;
+    background-image: none;
+    padding: 9px 15px;
+    line-height: 2;
+    font-size: 15px;
+}
