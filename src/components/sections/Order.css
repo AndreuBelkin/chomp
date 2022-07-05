@@ -1,0 +1,16 @@
+.section-order {
+    @apply grid grid-cols-2;
+}
+
+.section-order img {
+    max-width: 100%;
+}
+
+.order-content {
+    @apply flex flex-col justify-center gap-4;
+    @apply relative;
+}
+
+.img-absolute {
+    @apply absolute top-0 left-0;
+}
