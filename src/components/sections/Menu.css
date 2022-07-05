@@ -1,0 +1,25 @@
+.menu__title {
+    text-align: center
+}
+
+.order {
+    padding: 20px 0;
+    background-color: #f5fbfc;
+}
+
+.order .container {
+    @apply flex flex-col items-center gap-6;
+}
+
+.order-description {
+    max-width: 450px;
+    text-align: center;
+}
+
+.menu-content {
+    @apply grid grid-cols-2 gap-6;
+}
+
+.menu-buttons {
+    @apply flex items-center justify-center gap-6;
+}

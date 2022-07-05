@@ -1,6 +1,5 @@
 .menu-card {
     @apply flex items-center;
-    max-width: 50%;
     cursor: pointer;
     gap: 25px;
     padding: 25px;
