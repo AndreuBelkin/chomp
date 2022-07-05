@@ -5,6 +5,7 @@ import HowItWork from "../components/sections/HowItWork";
 import Intro from "../components/sections/Intro";
 import Menu from "../components/sections/Menu";
 import Order from "../components/sections/Order";
+import Support from "../components/sections/Support";
 import MenuCard from "../store/slices/menu/MenuCard";
 import "./Home.css";
 
@@ -17,9 +18,7 @@ const Home: FC = () => {
       <Menu />
       <Order />
       <Call />
-      <section className='section'>
-        <div className='container'>Support section</div>
-      </section>
+      <Support />
     </main>
   );
 };

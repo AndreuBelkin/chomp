@@ -1,0 +1,39 @@
+.support {
+    @apply grid grid-cols-2 gap-8;
+}
+
+.support-content {
+    @apply flex flex-col justify-center gap-4;
+    background-color: var(--color-primary);
+}
+
+.support-content__img {
+    background-image: url("https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3710276b5d2_Group%20Photo.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 640px;
+}
+
+.content_padding {
+    padding: 25px 60px;
+    background-image: url("https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3a0b276b5f7_Pattern%2001.svg");
+    background-position: 0px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.support-content h2 {
+    color: white;
+}
+
+.support-content h2 span {
+    color: var(--color-dark-primary);
+}
+
+.support-content .button{
+    color: var(--color-primary);
+    background-image: none;
+    background-color: white;
+}
