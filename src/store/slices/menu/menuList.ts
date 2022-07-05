@@ -100,7 +100,7 @@ const menuList: IMenu[] = [
     },
     {
         id: 12,
-        category: 'sides',
+        category: 'drinks',
         name: 'Drink Liquor',
         description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore commodi voluptate eum?',
         price: 7.00,
@@ -108,7 +108,7 @@ const menuList: IMenu[] = [
     },
     {
         id: 13,
-        category: 'sides',
+        category: 'drinks',
         name: 'Drink Lime',
         description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore commodi voluptate eum?',
         price: 4.00,
@@ -116,7 +116,7 @@ const menuList: IMenu[] = [
     },
     {
         id: 14,
-        category: 'sides',
+        category: 'drinks',
         name: 'Drink Cola',
         description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore commodi voluptate eum?',
         price: 3.00,
