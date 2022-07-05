@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import About from "../components/sections/About";
+import Call from "../components/sections/Call";
 import HowItWork from "../components/sections/HowItWork";
 import Intro from "../components/sections/Intro";
 import Menu from "../components/sections/Menu";
@@ -15,9 +16,7 @@ const Home: FC = () => {
       <HowItWork />
       <Menu />
       <Order />
-      <section className='section section_grey'>
-        <div className='container'>Call section</div>
-      </section>
+      <Call />
       <section className='section'>
         <div className='container'>Support section</div>
       </section>
