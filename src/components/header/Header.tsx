@@ -1,11 +1,11 @@
 import React, { FC } from "react";
-import "./Header.css";
+import "../../styles/Header.css";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
 
 const Header: FC = () => {
   return (
-    <header className='header container'>
+    <header className='header content container'>
       <Logo />
       <Navbar />
     </header>

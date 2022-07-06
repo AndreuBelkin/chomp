@@ -1,0 +1,27 @@
+.header {
+    @apply justify-between py-5;
+}
+
+.logo {
+    max-width: 40px;
+}
+
+.navigation {
+    @apply justify-between;
+}
+
+.navigation-content {
+    @apply gap-0;
+}
+
+.navigation__item {
+    @apply px-4 py-5 opacity-80 transition-opacity;
+}
+
+.navigation__item:hover {
+    @apply opacity-100;
+}
+
+@media (max-width: 481px) {
+    
+}

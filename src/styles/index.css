@@ -38,6 +38,14 @@ body {
   margin: 0 auto;
 }
 
+.content {
+  @apply flex items-center gap-5;
+}
+
+.content_col {
+  @apply flex flex-col gap-5;
+}
+
 /* Default Text Styles */
 
 h1 {

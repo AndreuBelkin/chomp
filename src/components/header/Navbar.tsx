@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 import NavbarItem from "./NavbarItem";
-import "./Navbar.css";
 import ShoppingCart from "../../store/slices/shopping/ShoppingCart";
 
 const Navbar: FC = () => {
@@ -11,8 +10,8 @@ const Navbar: FC = () => {
   };
 
   return (
-    <div className='navigation'>
-      <div className='navigation-bar'>{renderItems()}</div>
+    <div className='navigation content'>
+      <div className='content navigation-content'>{renderItems()}</div>
       <ShoppingCart />
     </div>
   );
